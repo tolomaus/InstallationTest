@@ -180,6 +180,6 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
-  <Import Project="..\packages\OctoPack.2.0.20\targets\OctoPack.targets" />
   <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
+  <Import Project="$(SolutionDir)\.octopack\OctoPack.targets" />
 </Project>
