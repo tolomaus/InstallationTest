@@ -16,6 +16,7 @@ Import-Module WebAdministration
 
 cd IIS:\
 
+
 $appPoolPath = ("IIS:\AppPools\" + $appPoolName)
 $pool = Get-Item $appPoolPath -ErrorAction SilentlyContinue
 if (!$pool) { 
