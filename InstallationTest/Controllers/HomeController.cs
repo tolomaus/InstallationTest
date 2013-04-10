@@ -12,7 +12,7 @@ namespace InstallationTest.Controllers
         public ActionResult Index()
         {
             ViewBag.Message = "Welcome to ASP.NET MVC!";
-            ViewBag.Setting = ConfigurationManager.AppSettings["ConnectionInfo"];
+            ViewBag.Setting = ConfigurationManager.AppSettings["SomeSetting"];
 
             return View();
         }
