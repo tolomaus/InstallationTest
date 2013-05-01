@@ -71,6 +71,7 @@
     </Compile>
     <None Include="Deploy_TODO.ps1" />
     <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\BlablaModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
