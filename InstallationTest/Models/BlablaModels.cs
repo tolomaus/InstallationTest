@@ -2,6 +2,6 @@
 {
     public class BlablaModels
     {
-         
+        public string NewField;
     }
 }
