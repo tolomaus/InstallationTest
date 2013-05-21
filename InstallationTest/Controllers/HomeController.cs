@@ -11,7 +11,7 @@ namespace InstallationTest.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Welcome to ASP.NET MVC!";
+            ViewBag.Message = "Welcome to ASP.NET MVC! - performance reworked step 1";
             ViewBag.Setting = ConfigurationManager.AppSettings["SomeSetting"];
 
             return View();
