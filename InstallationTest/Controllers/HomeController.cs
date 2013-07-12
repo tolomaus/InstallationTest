@@ -7,7 +7,7 @@ using System.Web.Mvc;
 
 namespace InstallationTest.Controllers
 {
-    public class HomeController : Controller2
+    public class HomeController : Controller
     {
         public ActionResult Index()
         {
