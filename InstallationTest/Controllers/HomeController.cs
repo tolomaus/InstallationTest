@@ -11,7 +11,7 @@ namespace InstallationTest.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Welcome to ASP.NET MVC! - cosmetics reworked finished 2";
+            ViewBag.Message = "Welcome to ASP.NET MVC! - create issue";
             ViewBag.Setting = ConfigurationManager.AppSettings["SomeSetting"];
 
             return View();
